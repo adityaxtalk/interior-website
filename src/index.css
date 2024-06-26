@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Bahnschrift';
+  src: local('Bahnschrift'), url('./assets/fonts/bahnschrift.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Bahnschrift', sans-serif;
+}
+
+body {
+  background-color: #252926;
+  color: #d6ac67;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
