@@ -5,7 +5,7 @@ const Heading = () => {
   return (
     <>
       <div className='w-full h-screen'>
-        <img  className='top-0 left-0 w-full h-screen object-cover' src="https://raw.githubusercontent.com/adityaxtalk/interior-website-images/main/residential/residential4.png" alt="interior-design"/>
+        <img  className='top-0 left-0 w-full h-screen object-cover' src="https://raw.githubusercontent.com/adityaxtalk/interior-website-assets/main/home.png" alt="interior-design"/>
         <div className='bg-black/[.75] absolute top-0 left-0 w-full h-screen'/>
           <div className='absolute top-10 w-full h-full flex flex-col justify-center'>
           <div className='left-[10%] md:left-[15%] max-w-[1256px] m-auto absolute p-4'>
@@ -13,7 +13,7 @@ const Heading = () => {
                <h1 className='md:text-5xl sm:text-4xl text-3xl font-bold text-[#9f8155] my-6'>
                  Experience the unparalled essence of 
                </h1>
-               <ReactTyped strings={['Elegance', 'Hygge', 'Eternity']} typeSpeed={120} backSpeed={140} loop/>
+               <ReactTyped strings={['Elegance', 'Serenity', 'Eternity']} typeSpeed={120} backSpeed={140} loop/>
              </div>
              <p className='max-w-[550px] py-2 md:text-2xl sm:text-xl text-base mb-6 text-[#A17A43]'>
                 Crafting the design that stand the best of the time, bridging the past and future seamlessly

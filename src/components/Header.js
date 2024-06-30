@@ -17,8 +17,8 @@ const Header = () => {
 
   return (
     <div className='absolute z-50 w-full flex justify-between px-10 py-8 items-center'>
-        <h1 className='font-serif font-bold text-2xl z-20'>
-            <Link to="/"><img  src='whitelogo.png' className="w-7 h-7 inline" alt="logo"/> Utkarsh Jain Architects</Link>
+        <h1 className='logo-title text-white font-bold text-2xl z-20 roboto-regular'>
+            <Link to="/"><img  src='https://raw.githubusercontent.com/adityaxtalk/interior-website-assets/main/whitelogo.png' className="w-7 h-auto sm:w-11 inline" alt="logo"/> Utkarsh Jain Architects</Link>
         </h1>
         <AiOutlineMenu onClick={handleNav} className='z-20 cursor-pointer' size={35}/>
 

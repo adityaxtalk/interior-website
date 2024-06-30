@@ -10,12 +10,12 @@ const Approach = () => {
         >
           <img 
             className="object-cover w-full h-full p-2 row-span-4"
-            src={"https://raw.githubusercontent.com/adityaxtalk/interior-website-images/main/modoboard.png"}
+            src={"https://raw.githubusercontent.com/adityaxtalk/interior-website-assets/main/modoboard.png"}
             alt="about"
           />
           <img 
             className="object-cover w-full h-full p-2 row-start-2 row-span-4"
-            src={"https://raw.githubusercontent.com/adityaxtalk/interior-website-images/main/modoboard1.jpeg"}
+            src={"https://raw.githubusercontent.com/adityaxtalk/interior-website-assets/main/modoboard1.jpeg"}
             alt="about"
           />
         </div>

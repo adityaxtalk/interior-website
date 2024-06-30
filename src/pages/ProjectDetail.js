@@ -1,15 +1,18 @@
 import React, { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
-import { projects } from "../projects";
+import interiorProjects  from "../interior/projects";
+import architectureProjects  from "../architecture/projects";
 const ProjectDetail = () => {
-  const params = useParams();
+  const {category, name} = useParams();
   const [project, setProject] = useState(null);
   useEffect(() => {
+    debugger
+    const projects = category === "architecture" ? architectureProjects : interiorProjects; 
     const _project = projects.filter(
-      (data) => data["Project"].trim() === params.id
+      (data) => data["Project"].trim() === name
     )[0];
     setProject(_project);
-  }, [params.id]);
+  }, [name, category]);
   return (
     <div className="max-w-[1440px] w-full mx-auto p-6">
       {project ? (
@@ -36,9 +39,9 @@ const ProjectDetail = () => {
               <p className="text-2xl md:text-3xl font-bold mt-2">
                 {project["Location"]}
               </p>
-              <p className="text-2xl mt-4">{project.Typology}</p>
-              <p className="text-2xl mt-4">Area (Sq. Ft.): {project["Area"]}</p>
-              <p className="text-2xl mt-4">
+              <p className="text-2xl text-white text font-bold mt-2">Category: {project.Typology}</p>
+              <p className="text-2xl text-white font-bold">Area: {project["Area"]} Sq. Ft.</p>
+              <p className="text-2xl text-white font-bold">
                 Status:{" "}
                 {project["Status"].trim()
                   ? project["Status"].trim()

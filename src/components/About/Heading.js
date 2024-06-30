@@ -12,7 +12,7 @@ const Heading = () => {
                 <span className='text-3xl font-bold'>Our Story</span> Founded in 2022 by the visionary architect Utkarsh Jain, Utkarsh Jain Architects is dedicated to redefining the way we perceive and inhabit spaces. Our firm stands at the forefront of innovation, creativity, and excellence in both architecture and interior design. We are committed to transforming projects into immersive, functional, and aesthetically pleasing experiences.
                   
             </p>
-            <img  className='w-full h-full object-contain ml-auto relative md:max-w-[65%] max-h-[550px] mt-48' src={"https://raw.githubusercontent.com/adityaxtalk/interior-website-images/main/founder/founder.png"} alt="Founders" data-aos="fade-left" data-aos-duration="3000"/>
+            <img  className='w-full h-full object-contain ml-auto relative md:max-w-[65%] max-h-[550px] mt-48' src={"https://raw.githubusercontent.com/adityaxtalk/interior-website-assets/main/FOUNDER'S%20IMAGES/FOUNDER.png"} alt="Founders" data-aos="fade-left" data-aos-duration="3000"/>
         </div>
     </div>
   )

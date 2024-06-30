@@ -8,13 +8,13 @@ const MiddleSection = () => {
                 Unleash Your Space's Bold Soul
             </h3>
             <p className='text-2xl pt-6 md:w-[400px]'>
-                With our sustainable fusion of textiles, furniture, art and antiques, each piece crafted to narrate your unique story.
+            With our curated blend of architectural elements, bespoke textiles, artisanal furniture, captivating artwork, and timeless antiques, each piece crafted to reflect your distinct story.
             </p>
         </div>
         <div className='grid grid-cols-2 col-span-2 gap-2'>
-            <img  className='object-cover w-full h-full' src={"https://raw.githubusercontent.com/adityaxtalk/interior-website-images/main/residential/residential1.png"} alt="living-room"/>
-            <img  className='object-cover row-span-2 w-full h-full' src={"https://raw.githubusercontent.com/adityaxtalk/interior-website-images/main/residential/residential2.png"} alt="living-room"/>
-            <img  className='object-cover w-full h-full' src={"https://raw.githubusercontent.com/adityaxtalk/interior-website-images/main/residential/residential3.png"} alt="living-room"/>
+            <img  className='object-cover w-full h-full' src={"_https://raw.githubusercontent.com/adityaxtalk/interior-website-assets/main/unleash1.png"} alt="living-room"/>
+            <img  className='object-cover row-span-2 w-full h-full' src={"https://raw.githubusercontent.com/adityaxtalk/interior-website-assets/main/unleash2.png"} alt="living-room"/>
+            <img  className='object-cover w-full h-full' src={"https://raw.githubusercontent.com/adityaxtalk/interior-website-assets/main/unleash3.png"} alt="living-room"/>
         </div>
     </div>
   )

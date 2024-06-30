@@ -24,12 +24,12 @@ const Team = () => {
         <img 
           className="object-cover w-full h-full"
           alt="Anushka-Co Founder"
-          src={"https://raw.githubusercontent.com/adityaxtalk/interior-website-images/main/founder/anushka.png"}
+          src={"https://raw.githubusercontent.com/adityaxtalk/interior-website-assets/main/FOUNDER'S%20IMAGES/CO%20FOUNDER%20ANUSHKA.png"}
         />
         <img 
           className="object-cover w-full h-full"
           alt="Founder"
-          src={"https://raw.githubusercontent.com/adityaxtalk/interior-website-images/main/founder/founder.png"}
+          src={"https://raw.githubusercontent.com/adityaxtalk/interior-website-assets/main/FOUNDER'S%20IMAGES/FOUNDER.png"}
         />
       </div>
     </div>
