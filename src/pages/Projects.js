@@ -18,14 +18,15 @@ const ProjectElement = ({projects, title}) => {
 const Projects = () => {
   return (
     <div className='max-w-full p-4'>
-        <h1 className='font-bold text-3xl mt-28 md:ml-40'>Selected Interior works</h1>
-        <div className='grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-2 lg:gap-1 justify-center mx-auto place-items-center mt-12'>
-           <ProjectElement projects={interiorProject} title={"interior"}/>
-        </div>
         <h1 className='font-bold text-3xl mt-28 md:ml-40'>Selected Architecture works</h1>
         <div className='grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-2 lg:gap-1 justify-center mx-auto place-items-center mt-12'>
            <ProjectElement projects={architectureProject} title={"architecture"}/>
         </div>
+        <h1 className='font-bold text-3xl mt-28 md:ml-40'>Selected Interior works</h1>
+        <div className='grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-2 lg:gap-1 justify-center mx-auto place-items-center mt-12'>
+           <ProjectElement projects={interiorProject} title={"interior"}/>
+        </div>
+        
     </div>
   )
 }

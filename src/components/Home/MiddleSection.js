@@ -12,7 +12,7 @@ const MiddleSection = () => {
             </p>
         </div>
         <div className='grid grid-cols-2 col-span-2 gap-2'>
-            <img  className='object-cover w-full h-full' src={"_https://raw.githubusercontent.com/adityaxtalk/interior-website-assets/main/unleash1.png"} alt="living-room"/>
+            <img  className='object-cover w-full h-full' src={"https://raw.githubusercontent.com/adityaxtalk/interior-website-assets/main/unleash1.png"} alt="living-room"/>
             <img  className='object-cover row-span-2 w-full h-full' src={"https://raw.githubusercontent.com/adityaxtalk/interior-website-assets/main/unleash2.png"} alt="living-room"/>
             <img  className='object-cover w-full h-full' src={"https://raw.githubusercontent.com/adityaxtalk/interior-website-assets/main/unleash3.png"} alt="living-room"/>
         </div>
